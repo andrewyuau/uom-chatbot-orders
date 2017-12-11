@@ -11,7 +11,7 @@ echo "Using manifest file: $MANIFEST"
 echo "Using prefix: $PREFIX"
 
 # Create CF services
-cf create-service cloudantNoSQLDB Lite ${PREFIX}insurance-policy-db
+cf create-service cloudantNoSQLDB Lite ${PREFIX}student-experience-db
 # Set app's env vars
 domain=".mybluemix.net"
 case "${REGION_ID}" in
