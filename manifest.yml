@@ -2,6 +2,6 @@
 applications:
 - name: insurance-orders
   host: insurance-orders
-  memory: 128M
+  memory: 64M
   services:
   - insurance-policy-db
