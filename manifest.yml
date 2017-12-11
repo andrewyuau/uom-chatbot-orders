@@ -1,7 +1,7 @@
 ---
 applications:
-- name: insurance-orders
-  host: insurance-orders
+- name: student-experience-orders
+  host: student-experience-orders
   memory: 64M
   services:
-  - insurance-db
+  - student-experience-db
